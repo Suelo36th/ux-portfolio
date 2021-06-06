@@ -1963,6 +1963,10 @@ figcaption {
   .profilepicture {
     margin-bottom: 20px;
   }
+
+  .website-image-2 {
+    margin-top: 20px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2108,6 +2112,10 @@ figcaption {
   }
 
   .website-image {
+    margin-top: 20px;
+  }
+
+  .website-image-2 {
     margin-top: 20px;
   }
 }
