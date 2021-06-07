@@ -11,8 +11,8 @@
 }
 
 body {
-  font-family: 'Work Sans', sans-serif;
-  color: #333;
+  font-family: Montserrat, sans-serif;
+  color: #1a1b1f;
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -1120,6 +1120,11 @@ figcaption {
   text-align: left;
 }
 
+.link.footer-links {
+  display: block;
+  text-align: right;
+}
+
 .contact-column-left {
   position: absolute;
   left: 0%;
@@ -1586,8 +1591,17 @@ figcaption {
     line-height: 54px;
   }
 
+  .link {
+    text-align: left;
+  }
+
   .link.contact {
     padding-left: 0px;
+  }
+
+  .link.footer-links {
+    display: block;
+    text-align: right;
   }
 
   .contact-column-left.contact {
@@ -1612,6 +1626,10 @@ figcaption {
     -ms-grid-rows: auto 30px auto 30px auto;
     grid-template-rows: auto auto auto;
     text-align: center;
+  }
+
+  .div-block-4 {
+    text-align: left;
   }
 }
 
@@ -1638,6 +1656,7 @@ figcaption {
 
   .paragraph-tiny {
     margin-top: 20px;
+    text-align: left;
   }
 
   .paragraph-tiny.cc-paragraph-tiny-light {
@@ -1657,7 +1676,7 @@ figcaption {
 
   .paragraph-light {
     margin-bottom: 0px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   .section {
@@ -1676,6 +1695,21 @@ figcaption {
 
   .logo-link {
     padding-left: 0px;
+  }
+
+  .navigation-item {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 15px 30px;
+    color: #333;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: right;
+  }
+
+  .navigation-item.w--current {
+    width: auto;
+    text-align: right;
   }
 
   .navigation {
@@ -1750,7 +1784,7 @@ figcaption {
 
   .project-name-link {
     margin-bottom: 5px;
-    font-size: 16px;
+    font-size: 1.2em;
     line-height: 130%;
   }
 
@@ -1932,11 +1966,29 @@ figcaption {
     text-align: left;
   }
 
+  .link {
+    text-align: left;
+  }
+
+  .link.contact {
+    font-size: 1em;
+  }
+
   .contact-column-left.contact {
     position: relative;
     width: auto;
     padding-top: 0px;
     padding-bottom: 0px;
+    padding-left: 0px;
+  }
+
+  .div-block {
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    color: #333;
+    text-align: left;
   }
 
   .grid-block {
@@ -1978,6 +2030,10 @@ figcaption {
   .heading-jumbo {
     font-size: 36px;
     line-height: 48px;
+  }
+
+  .navigation-item {
+    text-align: right;
   }
 
   .navigation {
@@ -2094,7 +2150,7 @@ figcaption {
   .link {
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
   .grid-block {
@@ -2332,6 +2388,8 @@ figcaption {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: Area;
+  -ms-grid-column-align: start;
+  justify-self: start;
 }
 
 .work-grid>#w-node-_1e4ce523-7ab7-265c-7727-0136272e0127-77c0500c {
@@ -2463,6 +2521,11 @@ figcaption {
     grid-column-end: 4;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
+  }
+
+  #w-node-_28a27462-4b8d-ce5d-2854-45994181fe73-30c0500a {
+    -ms-grid-column-align: start;
+    justify-self: start;
   }
 }
 
