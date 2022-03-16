@@ -2122,8 +2122,9 @@ figcaption {
   }
 
   .contact {
-    width: auto;
-    padding: 30px 30px 40px;
+    position: relative;
+    width: 100%;
+    padding: 30px 30px px 40px;
   }
 
   .contact-headline {
@@ -2206,6 +2207,9 @@ figcaption {
   }
 
   .contact-column-left.contact {
+    padding-left: 0px;
+    height: 100%;
+    padding-bottom: 0px;
     left: 0%;
     top: auto;
     right: 0%;
@@ -2701,17 +2705,18 @@ figcaption {
   }
 
   .contact-column-left.contact {
+    display: block;
+    float: right;
+    padding: 0%;
     position: relative;
     width: auto;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
   }
 
   .div-block {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     -ms-grid-row-align: auto;
+    float: right;
     align-self: auto;
     color: #333;
     text-align: left;
