@@ -382,7 +382,7 @@ figcaption {
   border: 1px none #000;
   background-color: transparent;
   opacity: 1;
-  border-bottom: 1.6px solid rgba(51, 51, 51, 0.6);
+  /* border-bottom: 1.6px solid rgba(51, 51, 51, 0.6); */
 }
 
 .logo-image {
@@ -761,7 +761,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-top: 1.6px solid rgba(51, 51, 51, 0.6);
+  /* border-top: 1.6px solid rgba(51, 51, 51, 0.6); */
 }
 
 .webflow-link {
